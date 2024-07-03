@@ -9,6 +9,76 @@ import jsPDFInvoiceTemplate, { OutputType } from 'jspdf-invoice-template';
 export class AppComponent {
   title = 'generatepdf';
 
+  employeeData = [
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+    {
+      id : 1,
+      name : 'revati',
+      email : 'revati@gmail.com',
+      mobileNum : 6379880586
+    },
+  ] 
+  
+
    props : any = {
     outputType: OutputType.Save,
     returnJsPDFDocObject: true,
